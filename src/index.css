@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: 20px;
+}
+.flashcards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.flashcards div {
+  display: flex;
+  padding: 20px;
+  aspect-ratio: 3/2;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+  border: 1px solid #e7e7e7;
+  cursor: pointer;
+}
+
+div.selected {
+  background-color: red;
+  border: 1px solid #e03131;
+}
